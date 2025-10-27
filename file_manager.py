@@ -1,4 +1,5 @@
 #this python file saves the message and accepts the said message as input
+
 def save_message(message):
     try:
         with open("user_message.txt", "w", encoding="utf-8") as file:
