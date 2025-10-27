@@ -1,0 +1,3 @@
+Hello 12, you are 12 years old!
+Name in binary: 0b1100
+Age in binary: 0b1100
