@@ -34,6 +34,7 @@ if __name__ == "__main__":
     print(message)
     save_message(message)
 
+
     read_message()
 
     show_exit_message()
