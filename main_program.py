@@ -26,18 +26,14 @@ if __name__ == "__main__":
 
     name, age = get_user_info()
 
-    # Convert to binary
     name_binary = convert_to_binary(name)
     age_binary = convert_to_binary(age)
 
-    # Create message
     message = create_message(name, age, name_binary, age_binary)
 
-    # Display message and save
     print(message)
     save_message(message)
 
-    # Read message back
     read_message()
 
     show_exit_message()
